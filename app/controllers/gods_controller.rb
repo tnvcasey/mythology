@@ -1,0 +1,2 @@
+class GodsController < ApplicationController
+end
