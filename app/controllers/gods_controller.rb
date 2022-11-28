@@ -15,6 +15,13 @@ class GodsController < ApplicationController
         render json: god
     end
 
+    def destroy
+        god = God.find_by(id: params[:id])
+        god.destroy
+        head :no_content
+    end 
+
+
     private 
 
     def god_params
