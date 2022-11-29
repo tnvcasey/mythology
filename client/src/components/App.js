@@ -18,7 +18,7 @@ function App(){
   const filteredGods = godsList.filter((god) => god.name.toLowerCase().includes(search.toLowerCase()))
 
   useEffect(() => {
-    fetch("http://localhost:3000/gods")
+    fetch("http://localhost:3000/api/gods")
       .then(res => res.json())
       .then(godsList => setGodsList(godsList))
   }, [])
