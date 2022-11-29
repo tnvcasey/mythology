@@ -2,5 +2,8 @@
   "dependencies": {
     "react-router-dom": "^5.3.4",
     "react-switch": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3"
   }
 }
