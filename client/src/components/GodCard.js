@@ -3,7 +3,7 @@ import React from "react";
 function GodCard({ god, handleDelete }) {
 
     function deleteGod(){
-        fetch(`http://localhost:3000/api/gods/${god.id}`, {
+        fetch(`/api/gods/${god.id}`, {
             method: "DELETE",
         })
             .then((res) => res.json())

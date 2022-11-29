@@ -15,7 +15,7 @@ function CreateGod({ handleAddGod }){
           romanname: romanname,
           power: power,
         }
-        fetch("http://localhost:3000/api/gods", {
+        fetch("/api/gods", {
           method: "POST", 
           headers: {
             "Content-Type": "application/json", 
