@@ -1,4 +1,4 @@
-class GodsController < ApplicationController
+class Api::GodsController < ApplicationController
 
     def index
         gods = God.all
